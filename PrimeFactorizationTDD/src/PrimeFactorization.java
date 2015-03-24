@@ -8,7 +8,7 @@ public class PrimeFactorization {
 
 	public static ArrayList<Integer> Factors(int i) {
 		ArrayList<Integer> factors = new ArrayList<Integer>();
-		if (i % 2 == 0) {
+		while (i % 2 == 0) {
 			factors.add(2);
 			i /= 2;
 		}
