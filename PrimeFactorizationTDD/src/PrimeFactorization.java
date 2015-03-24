@@ -14,6 +14,12 @@ public class PrimeFactorization {
 		for (;i % 3 == 0;i/=3) {
 			factors.add(3);
 		}
+		for (;i % 5 == 0;i/=5) {
+			factors.add(5);
+		}
+		for (;i % 7 == 0;i/=7) {
+			factors.add(7);
+		}
 		if (i > 1) {
 			factors.add(i);
 		}
