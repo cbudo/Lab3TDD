@@ -35,4 +35,8 @@ public class PrimeFactorizationUnitTest {
 	public void testFive() throws Exception {
 		assertArrayEquals(List(2,3).toArray(), PrimeFactorization.Factors(6).toArray());
 	}
+	@Test
+	public void testSix() throws Exception {
+		assertArrayEquals(List(2,2,2).toArray(), PrimeFactorization.Factors(8).toArray());
+	}
 }
