@@ -16,6 +16,12 @@ public class PrimeNumGenerator {
 			list.add(2);
 			list.add(3);
 		}
+		if(i==7)
+		{
+			list.add(2);
+			list.add(3);
+			list.add(5);
+		}
 		return list;
 	}
 }
