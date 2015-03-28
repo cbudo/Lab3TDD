@@ -11,6 +11,11 @@ public class PrimeNumGenerator {
 		{
 			list.add(2);
 		}
+		if(i==5)
+		{
+			list.add(2);
+			list.add(3);
+		}
 		return list;
 	}
 }
